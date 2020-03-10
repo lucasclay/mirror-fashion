@@ -1,0 +1,14 @@
+body {
+    font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
+}
+h1 {
+    background-color: rgba(0,0,0,0.3)
+}
+h2 {
+    border-bottom: 2px	solid	#333333;
+}
+figure {
+    background-color: #F2EDED;
+	border: 1px	solid	#ccc;
+	text-align:	center;
+}
