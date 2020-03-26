@@ -3,10 +3,28 @@
     <head>
 		<meta	charset="utf-8">
         <title>Sobre	a	Mirror	Fashion</title>
-        <link rel='stylesheet' href="Estilo-Historia.css">
+        <link rel='stylesheet' href="css/estilo-sobre.css">
 	</head>
 	<body>
-        <img src='\img\logo.png'>
+        <header class ="container">
+            <h1 class ="header"><a href="homepage.html"><img src= "img/logo.png" alt="logo da mirror fashion"></a></h1>
+            
+            <p class ="sacola">
+                <!--<img src ="/img/sacola.png">-->
+                Nenum item na sacola de compras
+            </p>
+
+            <nav class ="menu-opçoes">
+                <ul>
+                    <li><a href ="#">Sua Conta</a></li>
+                    <li><a href ="#">Lista de Desejos</a></li>
+                    <li><a href ="#">Cartão Fidelidade</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href ="#">Ajuda</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--<img src='\img\logo.png'>-->
         <h1>A Mirror Fashion</h1>
         <p>
             a Mirror Fashion é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
@@ -14,7 +32,7 @@
             participação em 118 deles.
         </p>
         <p>
-            Nosso centro de distribuição fica em Jacarezinho, no Paraná. De lá, saem 48 aviões que 
+            Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho, no Paraná</a>. De lá, saem 48 aviões que 
             distribuem nossos produtos às casas do mundo todo
             Nosso centro de distribuição:
         </p>
@@ -24,11 +42,11 @@
             <figcaption>Centro de Distribuiçao da Mirror Fashion</figcaption>
         </figure>
         <p>
-            Compre suas roupas e acessórios na Mirror Fashion.Acesse nossa loja ou entre em contato 
-            se tiver dúvidas. Conheça também nossa história e nossos diferenciais.
+            Compre suas roupas e acessórios na Mirror Fashion.Acesse <a href="homepage.html">nossa loja</a> ou entre em contato 
+            se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a	href="#diferenciais">diferenciais</a>.
         </p>
 
-        <h2>historia</h2>
+        <h2 id="historia">historia</h2>
         <float id='familia-pelho'>
             <img src='\img\familia-pelho.jpg'>
             <figcaption>familia pelho</figcaption>
@@ -56,7 +74,7 @@
             homenagens e condecorações. Todos os presidentes do Brasil já visitaram as instalações da Mirror 
             Fashion, além de presidentes da União Européia, Ásia e o secretário-geral da ONU.
         </p>
-        <h2>Diferenciais</h2>
+        <h2 id="diferenciais">Diferenciais</h2>
         <ul>
             <li>Menor preço do varejo, garantido</li>
             <li>Se você achar uma loja mais barata, leva o produto de graça</li>
@@ -68,10 +86,11 @@
             <li>Mais de um milhão de funcionários em todo o mundo
             </li>
         </ul>
-        <h3> Compre já em nossa loja!</h3>
+        <h3><a href="homepage.html">Compre já em nossa loja!</a></h3>
 
         <footer>
-            <img id='rodape' src="\img\logo.png">
+            <a href="homepage.html">
+            <img id='rodape' src="\img\logo.png"></a>
             @Copyright Mirror Fashion
         </footer >
     </body>

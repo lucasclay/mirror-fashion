@@ -6,6 +6,7 @@ body {
 }
 h1 {
     background-color: rgba(0,0,0,0.3)
+    
 }
 h2 {
     border-bottom: 2px	solid	#333333;
@@ -39,4 +40,31 @@ h3 {
 p {
     padding: 0 45px;
     text-indent: 15px;
+}
+header{
+    position: relative;
+    background-color: white;
+}
+.header{
+    background-color: white;
+}
+.sacola {
+	padding-top :8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.menu-opçoes{
+	position: absolute;
+	bottom: 0;
+    right: 0;
+}
+.menu-opçoes ul li {
+    display: inline;
+    margin-left: 20 px;
+    padding: 10px;
+}
+.container {
+	margin: 0 auto;
+	width: 940px;
 }
