@@ -1,6 +1,6 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h4, h5, h6, p, blockquote, pre,
+a, p, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -8,24 +8,25 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	/*margin: 0;
+time, mark, audio, video {	
 	padding: 0;
-	border: 0;
 	font: inherit;
-	vertical-align: baseline;*/
 	font-size: 100%;
-	
+	vertical-align: baseline;
+/*	width: auto;
+/*	margin: 0;
+	border: 0;
 }
-/* HTML5 display-role reset for older browsers */
+ HTML5 display-role reset for older browsers 
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: ;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -41,30 +42,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-
-
-header{
-	position: relative;
-}
-.sacola {
-	padding-top :8px;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-.menu-opçoes{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-.menu-opçoes ul li {
-    display: inline;
-	margin-left: 20 px;
-	padding: 10px;
-}
-.container {
-	margin: 0 auto;
-	width: 940px;
-}
+}*/

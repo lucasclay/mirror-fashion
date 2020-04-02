@@ -22,6 +22,8 @@ h3 {
     color: blue;
     text-align: center;
     font-size: 50px;
+    
+    
 }
 
 #centro-distribuiçao {
@@ -48,4 +50,9 @@ h3 {
 p {
     padding: 0 45px;
     text-indent: 15px;
+}
+.diferenciais {
+    list-style-type: disc;
+    padding: 0;
+   
 }
