@@ -9,8 +9,9 @@ body {
     background-color: white;
 } 
 
-h1 {
-    background-color: rgba(0,0,0,0.3)
+.title {
+    
+    background-image: url(../img/sobre-background.jpg);
 }
 
 h2 {
@@ -50,9 +51,4 @@ h3 {
 p {
     padding: 0 45px;
     text-indent: 15px;
-}
-.diferenciais {
-    list-style-type: disc;
-    padding: 0;
-   
 }

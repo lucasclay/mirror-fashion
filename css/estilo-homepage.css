@@ -13,7 +13,7 @@ header{
 }
 
 .sacola {
-    background-image: url(/mirror-fashion/img/sacola.png);
+    background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: top right;
 
@@ -150,7 +150,7 @@ img	{
 }
 
 footer	{
-    background-image: url(/mirror-fashion/img/fundo-rodape.png);
+    background-image: url(../img/fundo-rodape.png);
     clear: both;
     padding: 10px 50px;
     width: auto;
@@ -219,10 +219,6 @@ footer, .container	{
     text-indent: -9999px;
 }
 
-ul, li {
-    list-style-type: none;
-    padding: 0;
-}
 figure {
     margin: 0px;
     padding: 0;
